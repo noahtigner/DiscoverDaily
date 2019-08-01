@@ -29,8 +29,11 @@ Written in Python.
 
 Dependencies: 
 * sklearn for machine learning
+
 * pandas for data management
+
 * Spotipy, a wrapper around the Spotify API
+
 * graphviz for tree visualization
 
 ## Author
