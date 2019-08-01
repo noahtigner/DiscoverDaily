@@ -28,6 +28,7 @@ If you wish to use the Jupyter Notebooks, run them in this order:
 Written in Python.
 
 Dependencies: 
+
 * sklearn for machine learning
 
 * pandas for data management
