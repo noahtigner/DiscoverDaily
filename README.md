@@ -19,19 +19,19 @@ The application will analyze your library, as well as over 2000 songs that I hav
 If you wish to use the standalone python script, run discoverdaily.py
 
 If you wish to use the Jupyter Notebooks, run them in this order:
-    - wrangling.ipynb
-    - eda.ipynb (OPTIONAL)
-    - recommender_tree.ipynb
+* wrangling.ipynb
+* eda.ipynb (OPTIONAL)
+* recommender_tree.ipynb
 
 ### Development
 
 Written in Python.
 
 Dependencies: 
-- sklearn for machine learning
-- pandas for data management
-- Spotipy, a wrapper around the Spotify API
-- graphviz for tree visualization
+* sklearn for machine learning
+* pandas for data management
+* Spotipy, a wrapper around the Spotify API
+* graphviz for tree visualization
 
 ## Author
 
@@ -40,5 +40,5 @@ Noah Tigner
 nzt@cs.uoregon.edu
 
 ### References
-- EDA code from Wes Doyle
+* EDA code from Wes Doyle
 
