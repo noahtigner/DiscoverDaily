@@ -1,2 +1,4 @@
 # DiscoverDaily
 
+![EDA](eda.png)
+
