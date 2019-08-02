@@ -23,7 +23,7 @@ from sklearn.metrics import accuracy_score
 
 
 def get_connection(username, client_id, client_secret, redirect_uri):
-    scope = 'user-library-read user-read-private user-read-playback-state user-modify-playback-state'
+    scope = 'user-library-read user-library-modify playlist-modify-public playlist-modify-private user-read-private user-read-playback-state user-modify-playback-state'
     redirect_uri = 'http://google.com/'
 
     token = spotipy.util.prompt_for_user_token(username, scope, client_id, client_secret, redirect_uri)
@@ -282,9 +282,10 @@ if __name__ == '__main__':
 
         # ----------------------------------------------------------------
 
-        playlist_title = f'DiscoverDaily {date}'
+        date = datetime.strftime(datetime.now(), '%m/%d')
+        playlist_title = f'Discover Daily {date}'
         p3.update(step_name=f'Creating Playlist {playlist_title}')
-        playlist_description = 'Generated {date} by Noah Tigner\'s Recommender Engine.\nSee https://bitbucket.org/noahtigner/discoverdaily/src/master/'
+        playlist_description = f'Generated {date} by Noah Tigner\'s Recommender Engine.\nSee https://bitbucket.org/noahtigner/discoverdaily/src/master/'
 
         playlist_id = sp.user_playlist_create(user=user['id'], name=playlist_title, description=playlist_description)['id']
 
