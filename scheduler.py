@@ -6,7 +6,7 @@ from utils.utilities import my_print as print
 from utils.utilities import my_input as input
 from utils.utilities import ProgressBar, CountDown, print_json
 
-from discoverdailydb import main
+from discoverdaily import main
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
