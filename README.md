@@ -16,13 +16,11 @@ You will need a Spotify Client ID and Client SECRET. See: [Spotify Authorization
 
 The application will analyze your library, as well as over 2000 songs that I have arbitrarily deemed 'bad'.
 
-If you wish to use the standalone python script, 
+* export your SPOTIPY_USERNAME, SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, and SPOTIPY_REDIRECT_URI
 
-* See [spotipy env](https://spotipy.readthedocs.io/en/latest/#authorization-code-flow)
-
-    * export your SPOTIPY_USERNAME, SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, and SPOTIPY_REDIRECT_URI
+    * See [spotipy env](https://spotipy.readthedocs.io/en/latest/#authorization-code-flow)
     
-* On a daily basis:
+* To run on a daily basis:
 
     * run run.sh
     
@@ -33,15 +31,6 @@ If you wish to use the standalone python script,
     * args:
 
         * playlist_length: number of track recommendations to generate
-    
-
-If you wish to use the Jupyter Notebooks, run them in this order:
-
-* wrangling.ipynb
-
-* eda.ipynb (OPTIONAL)
-
-* recommender_tree.ipynb
 
 ### Development
 
@@ -55,14 +44,11 @@ Dependencies:
 
 * Spotipy, a wrapper around the Spotify API
 
-* graphviz for tree visualization
+* sqlite3 for DBM
 
 ## Author
 
 Noah Tigner
 
 nzt@cs.uoregon.edu
-
-### References
-* EDA code from Wes Doyle
 
