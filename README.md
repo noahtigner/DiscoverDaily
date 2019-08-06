@@ -21,14 +21,18 @@ If you wish to use the standalone python script,
 * See [spotipy env](https://spotipy.readthedocs.io/en/latest/#authorization-code-flow)
 
     * export your SPOTIPY_USERNAME, SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, and SPOTIPY_REDIRECT_URI
+    
+* On a daily basis:
 
-* run discoverdaily.py
+    * run run.sh
+    
+* For a single use:
 
-* args:
+    * run discoverdaily.py
 
-    * playlist_length: number of track recommendations to generate
+    * args:
 
-    * interval: number of minutes between script executions (default = 1440, 24 hours)
+        * playlist_length: number of track recommendations to generate
     
 
 If you wish to use the Jupyter Notebooks, run them in this order:
