@@ -32,8 +32,11 @@ If you wish to use the standalone python script,
     
 
 If you wish to use the Jupyter Notebooks, run them in this order:
+
 * wrangling.ipynb
+
 * eda.ipynb (OPTIONAL)
+
 * recommender_tree.ipynb
 
 ### Development
