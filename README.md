@@ -50,5 +50,5 @@ Dependencies:
 
 Noah Tigner
 
-nzt@cs.uoregon.edu
+noahzanetigner@gmail.com
 
